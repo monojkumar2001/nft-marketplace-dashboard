@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap");
+@font-face {
+  font-family: DS-DIGI;
+  src: url(../fonts/DS-DIGI.TTF);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --primary-color: #312de5;
+  --secondary-color: #ffffff;
+  --ds-digi-font: "DS-DIGI", sans-serif;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif !important;
+  font-size: 14px !important;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: #f4f4f5 !important;
+  font-size: 14px;
+  height: 100%;
+}
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  max-width: 1300px;
+}
+@media (max-width: 900px) {
+  .container {
+    width: 95%;
+  }
+}
+img {
+  vertical-align: middle;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.container {
+  max-width: 1340px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+/* ============================GENERAL STYLE END======= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+span,
+label {
+  margin: 0;
+}
+
+.ovh {
+  overflow: hidden;
+}
+
+table.table {
+  white-space: nowrap;
+}
+
+/* ===================custom button============ */
+
+.custom-btn {
+  width: 250px;
+  padding: 20px 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: linear-gradient(90deg, #00cc60 0%, #00d5ff 100%);
+  color: #101012;
+  font-size: 20px;
+  font-family: var(--thrid-font);
+  font-weight: 600;
+  transition: 0.3s;
+}
+.custom-btn:hover:before {
+  transform: translate(-50%) scale(310);
+  opacity: 1;
+}
+
+.custom-btn span {
+  position: relative;
+  z-index: 1;
+}
+
+/* ===================custom button end=============== */
+
+.custom-btn-alt {
+  display: inline-block;
+  border-radius: 50px;
+  font-size: var(--p-font);
+  color: var(--main-color);
+  font-weight: 500;
+  text-transform: capitalize;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  padding: 10px 35px;
+  box-shadow: 1px 1px 40px rgb(0 0 0 / 10%);
+  outline: none;
+  transition: 0.3s;
+  border: none;
+  background: var(--white-color);
+  text-transform: uppercase;
+}
+
+.custom-btn-alt:hover {
+  color: var(--white-color);
+}
+
+.custom-btn-alt:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%) scale(0);
+  width: 1px;
+  height: 1px;
+  background: var(--main-color);
+  opacity: 0;
+  border-radius: 50%;
+  transition: 0.5s ease-in-out;
+}
+
+.custom-btn-alt:hover:before {
+  transform: translate(-50%) scale(310);
+  opacity: 1;
+}
+
+.custom-btn-alt span {
+  position: relative;
+  z-index: 1;
+}
+
+::selection {
+  color: #fff;
+  background: #37a000;
+  text-shadow: none;
+}
+.btn-success {
+  box-shadow: 0 2px 6px 0 rgba(40, 167, 69, .5) !important;
+    color: #fff;
+    background-color: #28a745 !important;
+}
+.btn-success:hover {
+  color: #fff;
+  background-color: #218838 !important;
+}
+/* ===============custom button alt=============== */

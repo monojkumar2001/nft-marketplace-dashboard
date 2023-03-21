@@ -1,0 +1,371 @@
+.admin-wrapper{
+    display: flex;
+}
+
+/* ==============  Admin_users page style start =========== */
+.admin-user-header{
+
+}
+.admin-user-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.admin-user-header-left{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.accout-img{
+    background-color: #fff;
+    height: 55px;
+    width: 55px;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+.account-content p{
+    font-weight: 500;
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+.account-content span{
+    font-size: 13px;
+    font-weight: 500;
+    color: #7a7a7a
+}
+.admin-user-header-right {
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+    background: white;
+    border-radius: 4px;
+    padding: 10px 15px;
+}
+.admin-user-header-right p{
+    color: #7a7a7a;
+    font-weight: 500;
+}
+.admin-user-header-right span{
+   color: #37a000;
+}
+.admin-user-list-wrapper{
+    margin-top: 25px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 20px 15px;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+}
+.admin-user-list-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #eff2f7;
+    padding-bottom: 20px;
+}
+
+.admin-user-list-title p {
+    font-size: 18px;
+    font-weight: 500;
+}
+.table-borderded td{
+    padding: 8px 10px;
+    border: 1px solid #e0dddd !important;
+}
+.table>thead>tr>th {
+    font-weight: 600;
+    padding: 8px 10px;
+    border: 1px solid #e0dddd !important;
+}
+
+.table {
+    width: 100% !important;
+    margin-bottom: 1rem !important;
+    color: #212529 !important;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(201, 201, 201, 0.05);
+}
+.table-striped tbody tr:nth-of-type(odd):hover{
+    background-color: rgba(99, 99, 99, 0.05);
+}
+.admin-user-imgs {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.admin-user-imgs img {
+    width: 100%;
+    border-radius: 50%;
+}
+.admin-number-btn a{
+    border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 15px;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn-info{
+    color: #fff;
+    background-color: #138496 !important;
+    border-color: #117a8b !important;
+}
+.admin-number-btn a:hover{
+    color: #fff;
+}
+/* ==============  Admin_users page style end =========== */
+
+/* ==============  Add-admin-user page style start =========== */
+.card-body {
+    padding: 24px;
+    padding: 1.5rem;
+}
+.form-group {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+.col-form-label {
+    padding-top: calc(0.7rem - 1px * 2);
+    padding-bottom: calc(0.7rem - 1px * 2);
+    margin-bottom: 0;
+    text-align: right;
+}
+.text-danger {
+    color: #e5343d!important;
+}
+.form-control {
+    font-size: 14px !important;
+    border: 1px solid #e4e5e7;
+}
+.form-control:focus {
+    border-color: #37a000 !important;
+    box-shadow: inset 0 1px 1px rgb(55 160 0 / 8%), 0 0 20px rgb(55 160 0 / 10%) !important;
+}
+.btn {
+    font-size: 14px !important;
+    border-radius: 2px !;
+}
+/* ==============  Add-admin-user page style end =========== */
+
+/* ==============  Customers page style start =========== */
+div.dataTables_wrapper div.dataTables_filter {
+    text-align: right;
+}
+.table{
+    margin-top: 20px;
+}
+.search-sumit-btns{
+    margin-top:20px;
+  text-align: right;
+}
+.search-sumit-btns label {
+    font-weight: normal;
+    white-space: nowrap;
+    text-align: left;
+}
+.pagination{
+    margin: 2px 0;
+    white-space: nowrap;
+    justify-content: flex-end;
+}
+.page-item.active .page-link{
+    background: #37a000 !important;
+    color: #fff;
+}
+/* ==============  Customers page style end =========== */
+
+/* ==============  Nft List page style start =========== */
+.nft-list-seletor{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.btn-info{
+    color: #fff !important;
+}
+.btn-success {
+    box-shadow: 0 2px 6px 0 rgb(40 167 69 / 50%);
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745 !important;
+}
+/* ==============  Nft List page style end =========== */
+.nav-link {
+    color: #525252 !important;
+    border-right: 1px solid #e8e8e8 !important;
+    border-left: 1px solid #e8e8e8 !important;
+    border-bottom: 1px solid #e8e8e8 !important;
+    border-radius: 0;
+}
+
+/* ============= App setting  start =============== */
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.app-setting-wrapper .buttons .btn{
+    box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(34,36,38,.15) inset;
+    color: rgba(0,0,0,.8);
+    padding: 5px 20px;
+    border-radius: 4px;
+}
+.app-setting-wrapper .reset-btn{
+    background-color: #CACBCD;
+}
+.app-setting-wrapper .save-btn{
+    background-color: #21BA45;
+    color: #fff !important;
+}
+/* ============= App setting end =============== */
+/* ============= fees setting start =============== */
+.from-items{
+    width: 100%;
+}
+.text-successs {
+    color: #37a000!important;
+}
+
+/* ============= fees setting end =============== */
+/* ============= selling-type start =============== */
+.form-active-btn{
+    border: none !important;
+    color: #fff !important;
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+}
+.form-select{
+    background-size: 24px !important;
+    background-image: url(../images/down.svg) !important;
+}
+/* ============= selling-type end =============== */
+/* ================= email-template start ============== */
+.email-template-wrapper .dataTables_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.email-template-wrapper .search-sumit-btns {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    text-align: right;
+    gap: 7px;
+}
+/* ================= email-template end ============== */
+/* =================language setting start ============= */
+.language-setting-wrapper form.form-inline {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.language-setting-wrapper button.btn.btn-primary {
+    margin-bottom: 1rem;
+}
+/* =================language setting end  ============= */
+
+/* ====================Phrase start =================== */
+.phrase-items{
+    display: flex;
+    align-items: center;
+}
+
+.phrase-items .btn-primary {
+    margin-bottom: 1rem;
+}
+/* ====================Phrase end =================== */
+/* ==================== english start ============== */
+.english-wrapper .english-search{
+    display: flex;
+    align-items: center;
+}
+/* ==================== english end ============== */
+
+/* =================== Add-theme  start =============== */
+.add-theme-wrapper .themediv{
+    margin-top: 30px;
+
+}
+.card_item .img_part:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    background: rgba(0,0,0,.51);
+    opacity: 0;
+    transition-duration: .4s;
+}
+.card_item .img_part:hover {
+    opacity: 1;
+}
+.add-theme-wrapper .themediv .img_part{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.add-theme-wrapper .themediv .img_part img{
+    width: 100%;
+} 
+.add-theme-wrapper .themediv .btn-dtls{
+    position: absolute;
+    background-color: #21BA45;
+    padding: 8px 20px;
+    color: #fff;
+    opacity: 0;
+    transition-duration: .4s;
+}
+.add-theme-wrapper .themediv .img_part:hover .btn-dtls{
+    opacity: 1;
+}
+.caption_part{
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+/* =================== Add-theme  end =============== */
+
+/* ====================== Add module start =================== */
+.add-module-item {
+    margin-top: 40px !important;
+}
+.add-module-item .addon_img img{
+    width: 100%;
+}
+.add-module-item .caption h3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.add-module-item .caption .addon_title{
+    font-size: 20px;
+}
+.add-module-item .caption .addon_price{
+    font-weight: 700;
+    color: red;
+    font-size: 20px;
+}
+.add-module-item .module-btn{
+    margin-top: 20px;
+}
+/* ====================== Add module end =================== */
+
+/*  ====================== update start =============== */
+.update-wrapper .update-title{
+    font-size: 25px;
+}
+/*  ====================== update end =============== */

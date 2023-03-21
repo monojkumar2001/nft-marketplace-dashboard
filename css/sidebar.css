@@ -1,0 +1,145 @@
+.sidebar{
+    height: 100%;
+    width: 300px;
+    background-color: #1c1f22;
+    padding: 20px;
+}
+.sidebar-wrapper{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 20px;
+    color: #a5a9ad;
+}
+
+.logo img{
+    width: 120px;
+}
+.admin-users{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.admin-img{
+    width: 35px;
+    height: 35px;
+    padding: 5p;
+}
+.admin-img img{
+    width: 100%;
+    border-radius: 50%;
+    padding: 5p;
+}
+.admin-dashboard-con{
+    margin-top: 20px;
+}
+/* dashboard */
+.sidebar-list p{
+font-weight: 500;
+}
+.admin-content span{
+    font-size: 12px;
+}
+.sidebar-list{
+    padding: 7px 15px;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+.sidebar-list a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: #a5a9ad;
+    white-space: nowrap;
+}
+.sidebar-list a:hover{
+    color: #fff;
+}
+.sidebar-list a:hover svg path{
+    fill: #fff;
+}
+
+/* admin */
+.admin-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 0px;
+    border-radius: 4px;
+}
+.admin-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.sub-menu {
+    margin-top: 5px;
+}
+.sub-menu-items a{
+    display: flex ;
+    border-radius: 4px;
+    padding: 7px 0;
+}
+.sub-menu-items a:hover svg path{
+    fill: white;
+}
+/* ============== Navber start ===================== */
+.navber{
+    background: #fff;
+    border-radius: 0;
+    height: 65px;
+    z-index: 9;
+    border: 0;
+    padding:15px 20px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+}
+.meno-logo img{
+    width: 100%;
+    cursor: pointer;
+}
+.navber-warrper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navber-timer-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.admin-timer{
+    background-color: #fff;
+    height: 40px;
+    border-radius: 0.25rem;
+    border: 1px solid #ececec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    gap: 5px;
+}
+.admin-timer span{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: var(--ds-digi-font);
+    color: #494c57;
+}
+/* ============== Navber End ===================== */
+/* =============== Footer start ======================= */
+.footer{
+    margin-top: 50px;
+    width: 100%;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #70737c;
+    background-color: #fff;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    box-shadow: 0 0 35px 0 rgb(154 161 171 / 15%);
+}
+/* =============== Footer End ======================= */

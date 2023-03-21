@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/dashboard.css" />
+    <link rel="stylesheet" href="./css/sidebar.css" />
+    <link rel="stylesheet" href="./css/admin-users.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="admin-wrapper">
+      <div class="sidebar">
+        <div class="sidebar-wrapper">
+          <div class="admin-users-con">
+            <div class="logo">
+              <img src="./images/logo.png" alt="" />
+            </div>
+            <div class="admin-users">
+              <div class="admin-img">
+                <img src="./images/admin.jpg" alt="" />
+              </div>
+              <div class="admin-content">
+                <p>Admin Admin</p>
+                <span>admin@demo.com</span>
+              </div>
+            </div>
+          </div>
+          <div class="admin-dashboard-con">
+            <div class="sidebar-list">
+              <a href="./index.html">
+                <svg
+                  width="25"
+                  height="25"
+                  viewBox="0 0 25 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <mask
+                    id="mask0_1153_13"
+                    style="mask-type: alpha"
+                    maskUnits="userSpaceOnUse"
+                    x="0"
+                    y="0"
+                    width="25"
+                    height="25"
+                  >
+                    <rect
+                      x="0.222168"
+                      y="0.347168"
+                      width="24"
+                      height="24"
+                      fill="#a5a9ad"
+                    />
+                  </mask>
+                  <g mask="url(#mask0_1153_13)">
+                    <path
+                      d="M5.22217 20.3472V12.3472H2.22217L12.2222 3.34717L16.2222 6.94717V4.34717H19.2222V9.64717L22.2222 12.3472H19.2222V20.3472H13.2222V14.3472H11.2222V20.3472H5.22217ZM7.22217 18.3472H9.22217V12.3472H15.2222V18.3472H17.2222V10.5472L12.2222 6.04717L7.22217 10.5472V18.3472ZM10.2222 10.3722H14.2222C14.2222 9.83883 14.0222 9.40117 13.6222 9.05917C13.2222 8.71783 12.7555 8.54717 12.2222 8.54717C11.6888 8.54717 11.2222 8.71783 10.8222 9.05917C10.4222 9.40117 10.2222 9.83883 10.2222 10.3722Z"
+                      fill="#a5a9ad"
+                    />
+                  </g>
+                </svg>
+                <p>Deshboard</p>
+              </a>
+            </div>
+            <div class="sidebar-list">
+              <a href="" class="admin-item">
+                <div class="admin-text">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <mask
+                      id="mask0_1091_71"
+                      style="mask-type: alpha"
+                      maskUnits="userSpaceOnUse"
+                      x="0"
+                      y="0"
+                      width="24"
+                      height="24"
+                    >
+                      <rect width="24" height="24" fill="#a5a9ad" />
+                    </mask>
+                    <g mask="url(#mask0_1091_71)">
+                      <path
+                        d="M6.025 17.3C6.875 16.6667 7.8 16.1667 8.8 15.8C9.8 15.4333 10.8667 15.25 12 15.25C13.1333 15.25 14.2 15.4333 15.2 15.8C16.2 16.1667 17.125 16.6667 17.975 17.3C18.5917 16.6167 19.0833 15.825 19.45 14.925C19.8167 14.025 20 13.05 20 12C20 9.78333 19.221 7.89567 17.663 6.337C16.1043 4.779 14.2167 4 12 4C9.78333 4 7.896 4.779 6.338 6.337C4.77933 7.89567 4 9.78333 4 12C4 13.05 4.18333 14.025 4.55 14.925C4.91667 15.825 5.40833 16.6167 6.025 17.3ZM12 12.75C11.0833 12.75 10.3127 12.4373 9.688 11.812C9.06267 11.1873 8.75 10.4167 8.75 9.5C8.75 8.58333 9.06267 7.81267 9.688 7.188C10.3127 6.56267 11.0833 6.25 12 6.25C12.9167 6.25 13.6873 6.56267 14.312 7.188C14.9373 7.81267 15.25 8.58333 15.25 9.5C15.25 10.4167 14.9373 11.1873 14.312 11.812C13.6873 12.4373 12.9167 12.75 12 12.75ZM12 21.5C10.6833 21.5 9.446 21.25 8.288 20.75C7.12933 20.25 6.125 19.575 5.275 18.725C4.425 17.875 3.75 16.8707 3.25 15.712C2.75 14.554 2.5 13.3167 2.5 12C2.5 10.6833 2.75 9.44567 3.25 8.287C3.75 7.129 4.425 6.125 5.275 5.275C6.125 4.425 7.12933 3.75 8.288 3.25C9.446 2.75 10.6833 2.5 12 2.5C13.3167 2.5 14.5543 2.75 15.713 3.25C16.871 3.75 17.875 4.425 18.725 5.275C19.575 6.125 20.25 7.129 20.75 8.287C21.25 9.44567 21.5 10.6833 21.5 12C21.5 13.3167 21.25 14.554 20.75 15.712C20.25 16.8707 19.575 17.875 18.725 18.725C17.875 19.575 16.871 20.25 15.713 20.75C14.5543 21.25 13.3167 21.5 12 21.5ZM12 20C12.9 20 13.771 19.854 14.613 19.562C15.4543 19.2707 16.2 18.8667 16.85 18.35C16.2 17.85 15.4623 17.4583 14.637 17.175C13.8123 16.8917 12.9333 16.75 12 16.75C11.0667 16.75 10.1877 16.8877 9.363 17.163C8.53767 17.4377 7.8 17.8333 7.15 18.35C7.8 18.8667 8.54567 19.2707 9.387 19.562C10.229 19.854 11.1 20 12 20ZM12 11.25C12.5 11.25 12.9167 11.0833 13.25 10.75C13.5833 10.4167 13.75 10 13.75 9.5C13.75 9 13.5833 8.58333 13.25 8.25C12.9167 7.91667 12.5 7.75 12 7.75C11.5 7.75 11.0833 7.91667 10.75 8.25C10.4167 8.58333 10.25 9 10.25 9.5C10.25 10 10.4167 10.4167 10.75 10.75C11.0833 11.0833 11.5 11.25 12 11.25Z"
+                        fill="#a5a9ad"
+                      />
+                    </g>
+                  </svg>
+                  <p>Admin</p>
+                </div>
+
+                <div class="sideber-arrow">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <mask
+                      id="mask0_1092_89"
+                      style="mask-type: alpha"
+                      maskUnits="userSpaceOnUse"
+                      x="0"
+                      y="0"
+                      width="24"
+                      height="24"
+                    >
+                      <rect width="24" height="24" fill="#a5a9ad" />
+                    </mask>
+                    <g mask="url(#mask0_1092_89)">
+                      <path
+                        d="M9.99998 21.6501L0.349976 12.0001L9.99998 2.3501L11.425 3.7751L3.17498 12.0001L11.425 20.2251L9.99998 21.6501Z"
+                        fill="#a5a9ad"
+                      />
+                    </g>
+                  </svg>
+                </div>
+              </a>
+              <ul class="sub-menu">
+                <li class="sub-menu-items">
+                  <a href="./admin-users.html">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask0_1092_101"
+                        style="mask-type: alpha"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="24"
+                        height="24"
+                      >
+                        <rect width="24" height="24" fill="#a5a9ad" />
+                      </mask>
+                      <g mask="url(#mask0_1092_101)">
+                        <path
+                          d="M12 19.625L10.925 18.55L16.75 12.75H4.375V11.25H16.75L10.925 5.45L12 4.375L19.625 12L12 19.625Z"
+                          fill="#a5a9ad"
+                        />
+                      </g>
+                    </svg>
+                    Admin Users
+                  </a>
+                </li>
+                <li class="sub-menu-items">
+                  <a href="./add-admin-user.html">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask0_1092_101"
+                        style="mask-type: alpha"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="24"
+                        height="24"
+                      >
+                        <rect width="24" height="24" fill="#a5a9ad" />
+                      </mask>
+                      <g mask="url(#mask0_1092_101)">
+                        <path
+                          d="M12 19.625L10.925 18.55L16.75 12.75H4.375V11.25H16.75L10.925 5.45L12 4.375L19.625 12L12 19.625Z"
+                          fill="#a5a9ad"
+                        />
+                      </g>
+                    </svg>
+                    Add Admin User
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="sidebar-list">
+              <a href="" class="admin-item">
+                <div class="admin-text">
+                  <svg width="20" height="20" viewBox="0 0 23 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21.02 25.5059V24.9059C21.02 23.6032 21.02 22.9525 20.8975 22.4205C20.7464 21.7618 20.4605 21.1618 20.067 20.6779C19.6736 20.194 19.1857 19.8423 18.6502 19.6565C18.2176 19.5059 17.6886 19.5059 16.6295 19.5059H11.8595C10.8004 19.5059 10.2713 19.5059 9.8388 19.6565C9.30325 19.8423 8.81542 20.194 8.42195 20.6779C8.02849 21.1618 7.74256 21.7618 7.59151 22.4205C7.46901 22.9525 7.46901 23.6032 7.46901 24.9059V25.5059M1.50659 20.8392V18.7059C1.50659 17.5899 1.50659 17.0325 1.59657 16.5725C1.73657 15.8551 2.03515 15.1993 2.45931 14.6776C2.88347 14.156 3.41668 13.7887 3.99997 13.6165C4.37397 13.5059 4.82712 13.5059 5.73449 13.5059H5.8429" stroke="#A5A9AD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M18.3097 10.173C18.3097 11.4107 17.91 12.5977 17.1984 13.4728C16.4868 14.348 15.5218 14.8397 14.5155 14.8397C13.5092 14.8397 12.5441 14.348 11.8325 13.4728C11.1209 12.5977 10.7212 11.4107 10.7212 10.173C10.7212 8.93534 11.1209 7.74835 11.8325 6.87318C12.5441 5.99801 13.5092 5.50635 14.5155 5.50635C15.5218 5.50635 16.4868 5.99801 17.1984 6.87318C17.91 7.74835 18.3097 8.93534 18.3097 10.173Z" fill="#A5A9AD" stroke-width="2"/>
+                    <path d="M10.1791 3.34635C9.54387 2.23701 8.45654 1.50635 7.22286 1.50635C5.26285 1.50635 3.67468 3.34901 3.67468 5.62368C3.67468 7.41568 4.66119 8.94101 6.04014 9.50635" fill="#A5A9AD" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                  <p>Customers</p>
+                </div>
+
+                <div class="sideber-arrow">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <mask
+                      id="mask0_1092_89"
+                      style="mask-type: alpha"
+                      maskUnits="userSpaceOnUse"
+                      x="0"
+                      y="0"
+                      width="24"
+                      height="24"
+                    >
+                      <rect width="24" height="24" fill="#a5a9ad" />
+                    </mask>
+                    <g mask="url(#mask0_1092_89)">
+                      <path
+                        d="M9.99998 21.6501L0.349976 12.0001L9.99998 2.3501L11.425 3.7751L3.17498 12.0001L11.425 20.2251L9.99998 21.6501Z"
+                        fill="#a5a9ad"
+                      />
+                    </g>
+                  </svg>
+                </div>
+              </a>
+              <ul class="sub-menu">
+                <li class="sub-menu-items">
+                  <a href="./customers.html">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask0_1092_101"
+                        style="mask-type: alpha"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="24"
+                        height="24"
+                      >
+                        <rect width="24" height="24" fill="#a5a9ad" />
+                      </mask>
+                      <g mask="url(#mask0_1092_101)">
+                        <path
+                          d="M12 19.625L10.925 18.55L16.75 12.75H4.375V11.25H16.75L10.925 5.45L12 4.375L19.625 12L12 19.625Z"
+                          fill="#a5a9ad"
+                        />
+                      </g>
+                    </svg>
+                    Customers
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="sidebar-list">
+              <a href="" class="admin-item">
+                <div class="admin-text">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0_1156_67" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
+                    <rect width="20" height="20" fill="#D9D9D9"/>
+                    </mask>
+                    <g mask="url(#mask0_1156_67)">
+                    <path d="M12.5 17.5V15H9.16663V6.66667H7.49996V9.16667H1.66663V2.5H7.49996V5H12.5V2.5H18.3333V9.16667H12.5V6.66667H10.8333V13.3333H12.5V10.8333H18.3333V17.5H12.5ZM14.1666 7.5H16.6666V4.16667H14.1666V7.5ZM14.1666 15.8333H16.6666V12.5H14.1666V15.8333ZM3.33329 7.5H5.83329V4.16667H3.33329V7.5Z" fill="#A5A9AD"/>
+                    </g>
+                    </svg>
+                  <p>NFTs</p>
+                </div>
+
+                <div class="sideber-arrow">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <mask
+                      id="mask0_1092_89"
+                      style="mask-type: alpha"
+                      maskUnits="userSpaceOnUse"
+                      x="0"
+                      y="0"
+                      width="24"
+                      height="24"
+                    >
+                      <rect width="24" height="24" fill="#a5a9ad" />
+                    </mask>
+                    <g mask="url(#mask0_1092_89)">
+                      <path
+                        d="M9.99998 21.6501L0.349976 12.0001L9.99998 2.3501L11.425 3.7751L3.17498 12.0001L11.425 20.2251L9.99998 21.6501Z"
+                        fill="#a5a9ad"
+                      />
+                    </g>
+                  </svg>
+                </div>
+              </a>
+              <ul class="sub-menu">
+                <li class="sub-menu-items">
+                  <a href="./Nft-list.html">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask0_1092_101"
+                        style="mask-type: alpha"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="24"
+                        height="24"
+                      >
+                        <rect width="24" height="24" fill="#a5a9ad" />
+                      </mask>
+                      <g mask="url(#mask0_1092_101)">
+                        <path
+                          d="M12 19.625L10.925 18.55L16.75 12.75H4.375V11.25H16.75L10.925 5.45L12 4.375L19.625 12L12 19.625Z"
+                          fill="#a5a9ad"
+                        />
+                      </g>
+                    </svg>
+                    NFT List
+                  </a>
+                </li>
+                <li class="sub-menu-items">
+                  <a href="./auction.html">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask0_1092_101"
+                        style="mask-type: alpha"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="24"
+                        height="24"
+                      >
+                        <rect width="24" height="24" fill="#a5a9ad" />
+                      </mask>
+                      <g mask="url(#mask0_1092_101)">
+                        <path
+                          d="M12 19.625L10.925 18.55L16.75 12.75H4.375V11.25H16.75L10.925 5.45L12 4.375L19.625 12L12 19.625Z"
+                          fill="#a5a9ad"
+                        />
+                      </g>
+                    </svg>
+                    Auctioned NFTs
+                  </a>
+                </li>
+                <li class="sub-menu-items">
+                  <a href="./fixed-sale.html">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask0_1092_101"
+                        style="mask-type: alpha"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="24"
+                        height="24"
+                      >
+                        <rect width="24" height="24" fill="#a5a9ad" />
+                      </mask>
+                      <g mask="url(#mask0_1092_101)">
+                        <path
+                          d="M12 19.625L10.925 18.55L16.75 12.75H4.375V11.25H16.75L10.925 5.45L12 4.375L19.625 12L12 19.625Z"
+                          fill="#a5a9ad"
+                        />
+                      </g>
+                    </svg>
+                    Fixed Sale NFTs
+                  </a>
+                </li>
+                <li class="sub-menu-items">
+                  <a href="./todays-sale.html">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask0_1092_101"
+                        style="mask-type: alpha"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="24"
+                        height="24"
+                      >
+                        <rect width="24" height="24" fill="#a5a9ad" />
+                      </mask>
+                      <g mask="url(#mask0_1092_101)">
+                        <path
+                          d="M12 19.625L10.925 18.55L16.75 12.75H4.375V11.25H16.75L10.925 5.45L12 4.375L19.625 12L12 19.625Z"
+                          fill="#a5a9ad"
+                        />
+                      </g>
+                    </svg>
+                    Todays Sale End
+                  </a>
+                </li>
+                <li class="sub-menu-items">
+                  <a href="./categories.html">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask0_1092_101"
+                        style="mask-type: alpha"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="24"
+                        height="24"
+                      >
+                        <rect width="24" height="24" fill="#a5a9ad" />
+                      </mask>
+                      <g mask="url(#mask0_1092_101)">
+                        <path
+                          d="M12 19.625L10.925 18.55L16.75 12.75H4.375V11.25H16.75L10.925 5.45L12 4.375L19.625 12L12 19.625Z"
+                          fill="#a5a9ad"
+                        />
+                      </g>
+                    </svg>
+                    Categories
+                  </a>
+                </li>
+                <li class="sub-menu-items">
+                  <a href="./add-category.html">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask0_1092_101"
+                        style="mask-type: alpha"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="24"
+                        height="24"
+                      >
+                        <rect width="24" height="24" fill="#a5a9ad" />
+                      </mask>
+                      <g mask="url(#mask0_1092_101)">
+                        <path
+                          d="M12 19.625L10.925 18.55L16.75 12.75H4.375V11.25H16.75L10.925 5.45L12 4.375L19.625 12L12 19.625Z"
+                          fill="#a5a9ad"
+                        />
+                      </g>
+                    </svg>
+                    Add Category
+                  </a>
+                </li>
+                <li class="sub-menu-items">
+                  <a href="./collection.html">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask0_1092_101"
+                        style="mask-type: alpha"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="24"
+                        height="24"
+                      >
+                        <rect width="24" height="24" fill="#a5a9ad" />
+                      </mask>
+                      <g mask="url(#mask0_1092_101)">
+                        <path
+                          d="M12 19.625L10.925 18.55L16.75 12.75H4.375V11.25H16.75L10.925 5.45L12 4.375L19.625 12L12 19.625Z"
+                          fill="#a5a9ad"
+                        />
+                      </g>
+                    </svg>
+                    Collections
+                  </a>
+                </li>
+                <li class="sub-menu-items">
+                  <a href="./add-collection.html">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask0_1092_101"
+                        style="mask-type: alpha"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="24"
+                        height="24"
+                      >
+                        <rect width="24" height="24" fill="#a5a9ad" />
+                      </mask>
+                      <g mask="url(#mask0_1092_101)">
+                        <path
+                          d="M12 19.625L10.925 18.55L16.75 12.75H4.375V11.25H16.75L10.925 5.45L12 4.375L19.625 12L12 19.625Z"
+                          fill="#a5a9ad"
+                        />
+                      </g>
+                    </svg>
+                    Add Collection
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="sidebar-list">
+              <a href="" class="admin-item">
+                <div class="admin-text">
+                  <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0_1156_19" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="25" height="25">
+                    <rect x="0.404297" y="0.224121" width="24" height="24" fill="#D9D9D9"/>
+                    </mask>
+                    <g mask="url(#mask0_1156_19)">
+                    <path d="M18.9294 9.22412L17.8294 6.82412L15.4294 5.72412L17.8294 4.62412L18.9294 2.22412L20.0294 4.62412L22.4294 5.72412L20.0294 6.82412L18.9294 9.22412ZM20.9294 16.2241L20.1294 14.5241L18.4294 13.7241L20.1294 12.9241L20.9294 11.2241L21.7294 12.9241L23.4294 13.7241L21.7294 14.5241L20.9294 16.2241ZM7.92939 22.2241L7.62939 19.8741C7.49606 19.8241 7.36706 19.7575 7.24239 19.6741C7.11706 19.5908 7.01273 19.5075 6.92939 19.4241L4.72939 20.3741L2.25439 16.0241L4.12939 14.6241V13.8241L2.25439 12.4241L4.72939 8.07412L6.92939 9.02412C7.01273 8.94079 7.11706 8.85745 7.24239 8.77412C7.36706 8.69079 7.49606 8.62412 7.62939 8.57412L7.92939 6.22412H12.9294L13.2294 8.57412C13.3627 8.62412 13.4921 8.69079 13.6174 8.77412C13.7421 8.85745 13.8461 8.94079 13.9294 9.02412L16.1294 8.07412L18.6044 12.4241L16.7294 13.8241V14.6241L18.6044 16.0241L16.1294 20.3741L13.9294 19.4241C13.8461 19.5075 13.7421 19.5908 13.6174 19.6741C13.4921 19.7575 13.3627 19.8241 13.2294 19.8741L12.9294 22.2241H7.92939ZM10.4294 17.2241C11.2627 17.2241 11.9711 16.9325 12.5544 16.3491C13.1377 15.7658 13.4294 15.0575 13.4294 14.2241C13.4294 13.3908 13.1377 12.6825 12.5544 12.0991C11.9711 11.5158 11.2627 11.2241 10.4294 11.2241C9.59606 11.2241 8.88773 11.5158 8.30439 12.0991C7.72106 12.6825 7.42939 13.3908 7.42939 14.2241C7.42939 15.0575 7.72106 15.7658 8.30439 16.3491C8.88773 16.9325 9.59606 17.2241 10.4294 17.2241ZM10.4294 15.2241C10.1461 15.2241 9.90839 15.1281 9.71639 14.9361C9.52506 14.7448 9.42939 14.5075 9.42939 14.2241C9.42939 13.9408 9.52506 13.7031 9.71639 13.5111C9.90839 13.3198 10.1461 13.2241 10.4294 13.2241C10.7127 13.2241 10.9504 13.3198 11.1424 13.5111C11.3337 13.7031 11.4294 13.9408 11.4294 14.2241C11.4294 14.5075 11.3337 14.7448 11.1424 14.9361C10.9504 15.1281 10.7127 15.2241 10.4294 15.2241ZM9.67939 20.2241H11.1794L11.3794 18.4241C11.8627 18.2908 12.2754 18.1201 12.6174 17.9121C12.9587 17.7035 13.2961 17.4241 13.6294 17.0741L15.2794 17.8241L15.9794 16.5741L14.5294 15.4741C14.6627 15.0908 14.7294 14.6741 14.7294 14.2241C14.7294 13.7741 14.6627 13.3575 14.5294 12.9741L15.9794 11.8741L15.2794 10.6241L13.6294 11.3741C13.2961 11.0241 12.9587 10.7448 12.6174 10.5361C12.2754 10.3281 11.8627 10.1575 11.3794 10.0241L11.1794 8.22412H9.67939L9.47939 10.0241C8.99606 10.1575 8.58373 10.3281 8.24239 10.5361C7.90039 10.7448 7.56273 11.0241 7.22939 11.3741L5.57939 10.6241L4.87939 11.8741L6.32939 12.9741C6.19606 13.3575 6.12539 13.7741 6.11739 14.2241C6.10873 14.6741 6.17939 15.0908 6.32939 15.4741L4.87939 16.5741L5.57939 17.8241L7.22939 17.0741C7.56273 17.4241 7.90039 17.7035 8.24239 17.9121C8.58373 18.1201 8.99606 18.2908 9.47939 18.4241L9.67939 20.2241Z" fill="#A5A9AD"/>
+                    </g>
+                    </svg>
+                  <p>NFT Setup</p>
+                </div>
+
+                <div class="sideber-arrow">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <mask
+                      id="mask0_1092_89"
+                      style="mask-type: alpha"
+                      maskUnits="userSpaceOnUse"
+                      x="0"
+                      y="0"
+                      width="24"
+                      height="24"
+                    >
+                      <rect width="24" height="24" fill="#a5a9ad" />
+                    </mask>
+                    <g mask="url(#mask0_1092_89)">
+                      <path
+                        d="M9.99998 21.6501L0.349976 12.0001L9.99998 2.3501L11.425 3.7751L3.17498 12.0001L11.425 20.2251L9.99998 21.6501Z"
+                        fill="#a5a9ad"
+                      />
+                    </g>
+                  </svg>
+                </div>
+              </a>
+              <ul class="sub-menu">
+                <li class="sub-menu-items">
+                  <a href="./nft-setup.html">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask0_1092_101"
+                        style="mask-type: alpha"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="24"
+                        height="24"
+                      >
+                        <rect width="24" height="24" fill="#a5a9ad" />
+                      </mask>
+                      <g mask="url(#mask0_1092_101)">
+                        <path
+                          d="M12 19.625L10.925 18.55L16.75 12.75H4.375V11.25H16.75L10.925 5.45L12 4.375L19.625 12L12 19.625Z"
+                          fill="#a5a9ad"
+                        />
+                      </g>
+                    </svg>
+                    NFT Setup
+                  </a>
+                </li>
+                <li class="sub-menu-items">
+                  <a href="./contract.html">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask0_1092_101"
+                        style="mask-type: alpha"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="24"
+                        height="24"
+                      >
+                        <rect width="24" height="24" fill="#a5a9ad" />
+                      </mask>
+                      <g mask="url(#mask0_1092_101)">
+                        <path
+                          d="M12 19.625L10.925 18.55L16.75 12.75H4.375V11.25H16.75L10.925 5.45L12 4.375L19.625 12L12 19.625Z"
+                          fill="#a5a9ad"
+                        />
+                      </g>
+                    </svg>
+                    Contract Deploy
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="sidebar-list">
+              <a href="" class="admin-item">
+                <div class="admin-text">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0_1156_25" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                    <rect width="24" height="24" fill="#D9D9D9"/>
+                    </mask>
+                    <g mask="url(#mask0_1156_25)">
+                    <path d="M12 17C12.2833 17 12.521 16.904 12.713 16.712C12.9043 16.5207 13 16.2833 13 16C13 15.7167 12.9043 15.479 12.713 15.287C12.521 15.0957 12.2833 15 12 15C11.7167 15 11.4793 15.0957 11.288 15.287C11.096 15.479 11 15.7167 11 16C11 16.2833 11.096 16.5207 11.288 16.712C11.4793 16.904 11.7167 17 12 17ZM11 13H13V7H11V13ZM8.25 21L3 15.75V8.25L8.25 3H15.75L21 8.25V15.75L15.75 21H8.25ZM9.1 19H14.9L19 14.9V9.1L14.9 5H9.1L5 9.1V14.9L9.1 19Z" fill="#A5A9AD"/>
+                    </g>
+                    </svg>
+                  <p>Finance</p>
+                </div>
+
+                <div class="sideber-arrow">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <mask
+                      id="mask0_1092_89"
+                      style="mask-type: alpha"
+                      maskUnits="userSpaceOnUse"
+                      x="0"
+                      y="0"
+                      width="24"
+                      height="24"
+                    >
+                      <rect width="24" height="24" fill="#a5a9ad" />
+                    </mask>
+                    <g mask="url(#mask0_1092_89)">
+                      <path
+                        d="M9.99998 21.6501L0.349976 12.0001L9.99998 2.3501L11.425 3.7751L3.17498 12.0001L11.425 20.2251L9.99998 21.6501Z"
+                        fill="#a5a9ad"
+                      />
+                    </g>
+                  </svg>
+                </div>
+              </a>
+              <ul class="sub-menu">
+                <li class="sub-menu-items">
+                  <a href="./finance.html">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask0_1092_101"
+                        style="mask-type: alpha"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="24"
+                        height="24"
+                      >
+                        <rect width="24" height="24" fill="#a5a9ad" />
+                      </mask>
+                      <g mask="url(#mask0_1092_101)">
+                        <path
+                          d="M12 19.625L10.925 18.55L16.75 12.75H4.375V11.25H16.75L10.925 5.45L12 4.375L19.625 12L12 19.625Z"
+                          fill="#a5a9ad"
+                        />
+                      </g>
+                    </svg>
+                    Finace
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="sidebar-list">
+              <a href="" class="admin-item">
+                <div class="admin-text">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0_1156_25" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                    <rect width="24" height="24" fill="#D9D9D9"/>
+                    </mask>
+                    <g mask="url(#mask0_1156_25)">
+                    <path d="M12 17C12.2833 17 12.521 16.904 12.713 16.712C12.9043 16.5207 13 16.2833 13 16C13 15.7167 12.9043 15.479 12.713 15.287C12.521 15.0957 12.2833 15 12 15C11.7167 15 11.4793 15.0957 11.288 15.287C11.096 15.479 11 15.7167 11 16C11 16.2833 11.096 16.5207 11.288 16.712C11.4793 16.904 11.7167 17 12 17ZM11 13H13V7H11V13ZM8.25 21L3 15.75V8.25L8.25 3H15.75L21 8.25V15.75L15.75 21H8.25ZM9.1 19H14.9L19 14.9V9.1L14.9 5H9.1L5 9.1V14.9L9.1 19Z" fill="#A5A9AD"/>
+                    </g>
+                    </svg>
+                  <p>Report</p>
+                </div>
+
+                <div class="sideber-arrow">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <mask
+                      id="mask0_1092_89"
+                      style="mask-type: alpha"
+                      maskUnits="userSpaceOnUse"
+                      x="0"
+                      y="0"
+                      width="24"
+                      height="24"
+                    >
+                      <rect width="24" height="24" fill="#a5a9ad" />
+                    </mask>
+                    <g mask="url(#mask0_1092_89)">
+                      <path
+                        d="M9.99998 21.6501L0.349976 12.0001L9.99998 2.3501L11.425 3.7751L3.17498 12.0001L11.425 20.2251L9.99998 21.6501Z"
+                        fill="#a5a9ad"
+                      />
+                    </g>
+                  </svg>
+                </div>
+              </a>
+              <ul class="sub-menu">
+                <li class="sub-menu-items">
+                  <a href="./report.html">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask0_1092_101"
+                        style="mask-type: alpha"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="24"
+                        height="24"
+                      >
+                        <rect width="24" height="24" fill="#a5a9ad" />
+                      </mask>
+                      <g mask="url(#mask0_1092_101)">
+                        <path
+                          d="M12 19.625L10.925 18.55L16.75 12.75H4.375V11.25H16.75L10.925 5.45L12 4.375L19.625 12L12 19.625Z"
+                          fill="#a5a9ad"
+                        />
+                      </g>
+                    </svg>
+                    Report
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="sidebar-list">
+              <a href="./content-manager.html" class="admin-item">
+                <div class="admin-text">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0_1156_31" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                    <rect width="24" height="24" fill="#D9D9D9"/>
+                    </mask>
+                    <g mask="url(#mask0_1156_31)">
+                    <path d="M2 21C1.71667 21 1.47933 20.904 1.288 20.712C1.096 20.5207 1 20.2833 1 20C1 19.7167 1.096 19.4793 1.288 19.288C1.47933 19.096 1.71667 19 2 19H22C22.2833 19 22.5207 19.096 22.712 19.288C22.904 19.4793 23 19.7167 23 20C23 20.2833 22.904 20.5207 22.712 20.712C22.5207 20.904 22.2833 21 22 21H2ZM4 18C3.45 18 2.97933 17.8043 2.588 17.413C2.196 17.021 2 16.55 2 16V5C2 4.45 2.196 3.979 2.588 3.587C2.97933 3.19567 3.45 3 4 3H20C20.55 3 21.021 3.19567 21.413 3.587C21.8043 3.979 22 4.45 22 5V16C22 16.55 21.8043 17.021 21.413 17.413C21.021 17.8043 20.55 18 20 18H4ZM4 16H20V5H4V16Z" fill="#A5A9AD"/>
+                    </g>
+                    </svg>
+                  <p>Content Manager</p>
+                </div>
+
+          
+              </a>
+            </div>
+            <div class="sidebar-list">
+              <a href="" class="admin-item">
+                <div class="admin-text">
+                  <svg width="20" height="20" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0_1156_37" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="25" height="25">
+                    <rect x="0.802734" y="0.302246" width="24" height="24" fill="#D9D9D9"/>
+                    </mask>
+                    <g mask="url(#mask0_1156_37)">
+                    <path d="M10.0527 22.3022L9.65269 19.1022C9.43602 19.0189 9.23202 18.9189 9.04069 18.8022C8.84869 18.6856 8.66102 18.5606 8.47769 18.4272L5.50269 19.6772L2.75269 14.9272L5.32769 12.9772C5.31102 12.8606 5.30269 12.7479 5.30269 12.6392V11.9642C5.30269 11.8562 5.31102 11.7439 5.32769 11.6272L2.75269 9.67725L5.50269 4.92725L8.47769 6.17725C8.66102 6.04391 8.85269 5.91891 9.05269 5.80225C9.25269 5.68558 9.45269 5.58558 9.65269 5.50225L10.0527 2.30225H15.5527L15.9527 5.50225C16.1694 5.58558 16.3737 5.68558 16.5657 5.80225C16.757 5.91891 16.9444 6.04391 17.1277 6.17725L20.1027 4.92725L22.8527 9.67725L20.2777 11.6272C20.2944 11.7439 20.3027 11.8562 20.3027 11.9642V12.6392C20.3027 12.7479 20.286 12.8606 20.2527 12.9772L22.8277 14.9272L20.0777 19.6772L17.1277 18.4272C16.9444 18.5606 16.7527 18.6856 16.5527 18.8022C16.3527 18.9189 16.1527 19.0189 15.9527 19.1022L15.5527 22.3022H10.0527ZM12.8527 15.8022C13.8194 15.8022 14.6444 15.4606 15.3277 14.7772C16.011 14.0939 16.3527 13.2689 16.3527 12.3022C16.3527 11.3356 16.011 10.5106 15.3277 9.82725C14.6444 9.14391 13.8194 8.80225 12.8527 8.80225C11.8694 8.80225 11.04 9.14391 10.3647 9.82725C9.69002 10.5106 9.35269 11.3356 9.35269 12.3022C9.35269 13.2689 9.69002 14.0939 10.3647 14.7772C11.04 15.4606 11.8694 15.8022 12.8527 15.8022ZM12.8527 13.8022C12.436 13.8022 12.082 13.6562 11.7907 13.3642C11.4987 13.0729 11.3527 12.7189 11.3527 12.3022C11.3527 11.8856 11.4987 11.5316 11.7907 11.2402C12.082 10.9482 12.436 10.8022 12.8527 10.8022C13.2694 10.8022 13.6237 10.9482 13.9157 11.2402C14.207 11.5316 14.3527 11.8856 14.3527 12.3022C14.3527 12.7189 14.207 13.0729 13.9157 13.3642C13.6237 13.6562 13.2694 13.8022 12.8527 13.8022ZM11.8027 20.3022H13.7777L14.1277 17.6522C14.6444 17.5189 15.1237 17.3229 15.5657 17.0642C16.007 16.8062 16.411 16.4939 16.7777 16.1272L19.2527 17.1522L20.2277 15.4522L18.0777 13.8272C18.161 13.5939 18.2194 13.3479 18.2527 13.0892C18.286 12.8312 18.3027 12.5689 18.3027 12.3022C18.3027 12.0356 18.286 11.7729 18.2527 11.5142C18.2194 11.2562 18.161 11.0106 18.0777 10.7772L20.2277 9.15225L19.2527 7.45225L16.7777 8.50225C16.411 8.11891 16.007 7.79791 15.5657 7.53925C15.1237 7.28125 14.6444 7.08558 14.1277 6.95225L13.8027 4.30225H11.8277L11.4777 6.95225C10.961 7.08558 10.482 7.28125 10.0407 7.53925C9.59869 7.79791 9.19435 8.11058 8.82769 8.47725L6.35269 7.45225L5.37769 9.15225L7.52769 10.7522C7.44435 11.0022 7.38602 11.2522 7.35269 11.5022C7.31935 11.7522 7.30269 12.0189 7.30269 12.3022C7.30269 12.5689 7.31935 12.8272 7.35269 13.0772C7.38602 13.3272 7.44435 13.5772 7.52769 13.8272L5.37769 15.4522L6.35269 17.1522L8.82769 16.1022C9.19435 16.4856 9.59869 16.8062 10.0407 17.0642C10.482 17.3229 10.961 17.5189 11.4777 17.6522L11.8027 20.3022Z" fill="#A5A9AD"/>
+                    </g>
+                    </svg>
+                  <p>Setting</p>
+                </div>
+
+                <div class="sideber-arrow">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <mask
+                      id="mask0_1092_89"
+                      style="mask-type: alpha"
+                      maskUnits="userSpaceOnUse"
+                      x="0"
+                      y="0"
+                      width="24"
+                      height="24"
+                    >
+                      <rect width="24" height="24" fill="#a5a9ad" />
+                    </mask>
+                    <g mask="url(#mask0_1092_89)">
+                      <path
+                        d="M9.99998 21.6501L0.349976 12.0001L9.99998 2.3501L11.425 3.7751L3.17498 12.0001L11.425 20.2251L9.99998 21.6501Z"
+                        fill="#a5a9ad"
+                      />
+                    </g>
+                  </svg>
+                </div>
+              </a>
+              <ul class="sub-menu">
+                <li class="sub-menu-items">
+                  <a href="./app-setting.html">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask0_1092_101"
+                        style="mask-type: alpha"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="24"
+                        height="24"
+                      >
+                        <rect width="24" height="24" fill="#a5a9ad" />
+                      </mask>
+                      <g mask="url(#mask0_1092_101)">
+                        <path
+                          d="M12 19.625L10.925 18.55L16.75 12.75H4.375V11.25H16.75L10.925 5.45L12 4.375L19.625 12L12 19.625Z"
+                          fill="#a5a9ad"
+                        />
+                      </g>
+                    </svg>
+                    App Setting
+                  </a>
+                </li>
+                <li class="sub-menu-items">
+                  <a href="./fees-setting.html">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask0_1092_101"
+                        style="mask-type: alpha"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="24"
+                        height="24"
+                      >
+                        <rect width="24" height="24" fill="#a5a9ad" />
+                      </mask>
+                      <g mask="url(#mask0_1092_101)">
+                        <path
+                          d="M12 19.625L10.925 18.55L16.75 12.75H4.375V11.25H16.75L10.925 5.45L12 4.375L19.625 12L12 19.625Z"
+                          fill="#a5a9ad"
+                        />
+                      </g>
+                    </svg>
+                    Fess Setting
+                  </a>
+                </li>
+                <li class="sub-menu-items">
+                  <a href="./selling-type.html">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask0_1092_101"
+                        style="mask-type: alpha"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="24"
+                        height="24"
+                      >
+                        <rect width="24" height="24" fill="#a5a9ad" />
+                      </mask>
+                      <g mask="url(#mask0_1092_101)">
+                        <path
+                          d="M12 19.625L10.925 18.55L16.75 12.75H4.375V11.25H16.75L10.925 5.45L12 4.375L19.625 12L12 19.625Z"
+                          fill="#a5a9ad"
+                        />
+                      </g>
+                    </svg>
+                  Selling Type
+                  </a>
+                </li>
+                <li class="sub-menu-items">
+                  <a href="./email-gateway.html">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask0_1092_101"
+                        style="mask-type: alpha"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="24"
+                        height="24"
+                      >
+                        <rect width="24" height="24" fill="#a5a9ad" />
+                      </mask>
+                      <g mask="url(#mask0_1092_101)">
+                        <path
+                          d="M12 19.625L10.925 18.55L16.75 12.75H4.375V11.25H16.75L10.925 5.45L12 4.375L19.625 12L12 19.625Z"
+                          fill="#a5a9ad"
+                        />
+                      </g>
+                    </svg>
+                    Email Gateway
+                  </a>
+                </li>
+                <li class="sub-menu-items">
+                  <a href="./external-api.html">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask0_1092_101"
+                        style="mask-type: alpha"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="24"
+                        height="24"
+                      >
+                        <rect width="24" height="24" fill="#a5a9ad" />
+                      </mask>
+                      <g mask="url(#mask0_1092_101)">
+                        <path
+                          d="M12 19.625L10.925 18.55L16.75 12.75H4.375V11.25H16.75L10.925 5.45L12 4.375L19.625 12L12 19.625Z"
+                          fill="#a5a9ad"
+                        />
+                      </g>
+                    </svg>
+                   External API
+                  </a>
+                </li>
+                <li class="sub-menu-items">
+                  <a href="./email-template.html">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask0_1092_101"
+                        style="mask-type: alpha"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="24"
+                        height="24"
+                      >
+                        <rect width="24" height="24" fill="#a5a9ad" />
+                      </mask>
+                      <g mask="url(#mask0_1092_101)">
+                        <path
+                          d="M12 19.625L10.925 18.55L16.75 12.75H4.375V11.25H16.75L10.925 5.45L12 4.375L19.625 12L12 19.625Z"
+                          fill="#a5a9ad"
+                        />
+                      </g>
+                    </svg>
+                   Email Template
+                  </a>
+                </li>
+                <li class="sub-menu-items">
+                  <a href="./language-setting.html">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask0_1092_101"
+                        style="mask-type: alpha"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="24"
+                        height="24"
+                      >
+                        <rect width="24" height="24" fill="#a5a9ad" />
+                      </mask>
+                      <g mask="url(#mask0_1092_101)">
+                        <path
+                          d="M12 19.625L10.925 18.55L16.75 12.75H4.375V11.25H16.75L10.925 5.45L12 4.375L19.625 12L12 19.625Z"
+                          fill="#a5a9ad"
+                        />
+                      </g>
+                    </svg>
+                    Language Setting
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="sidebar-list">
+              <a href="" class="admin-item">
+                <div class="admin-text">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0_1156_43" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                    <rect width="24" height="24" fill="#D9D9D9"/>
+                    </mask>
+                    <g mask="url(#mask0_1156_43)">
+                    <path d="M18 21V18H15V16H18V13H20V16H23V18H20V21H18ZM5.62505 21.5C5.27505 21.5 4.95005 21.4083 4.65005 21.225C4.35005 21.0417 4.10838 20.8 3.92505 20.5L1.57505 16.4C1.39172 16.1 1.30005 15.7667 1.30005 15.4C1.30005 15.0333 1.39172 14.7 1.57505 14.4L7.92505 3.5C8.10838 3.16667 8.35438 2.91667 8.66305 2.75C8.97105 2.58333 9.30005 2.5 9.65005 2.5H14.35C14.7 2.5 15.0294 2.58333 15.338 2.75C15.646 2.91667 15.8917 3.16667 16.075 3.5L20.55 11.175C20.3 11.0917 20.05 11.0373 19.8 11.012C19.55 10.9873 19.2834 10.975 19 10.975H18.5751C18.4417 10.975 18.3 10.9917 18.15 11.025L14.35 4.5H9.65005L3.30005 15.4L5.65005 19.5H13.55C13.7334 19.8833 13.946 20.2417 14.188 20.575C14.4294 20.9083 14.7167 21.2167 15.05 21.5H5.62505ZM7.25005 17L6.52505 15.725L11.1 7.75H12.9L15.425 12.15C15.125 12.3833 14.8627 12.621 14.638 12.863C14.4127 13.1043 14.2 13.375 14 13.675L12 10.2L9.25005 15H13.35C13.2167 15.3333 13.125 15.6627 13.075 15.988C13.025 16.3127 13 16.65 13 17H7.25005Z" fill="#A5A9AD"/>
+                    </g>
+                    </svg>
+                  <p>Addons</p>
+                </div>
+
+                <div class="sideber-arrow">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <mask
+                      id="mask0_1092_89"
+                      style="mask-type: alpha"
+                      maskUnits="userSpaceOnUse"
+                      x="0"
+                      y="0"
+                      width="24"
+                      height="24"
+                    >
+                      <rect width="24" height="24" fill="#a5a9ad" />
+                    </mask>
+                    <g mask="url(#mask0_1092_89)">
+                      <path
+                        d="M9.99998 21.6501L0.349976 12.0001L9.99998 2.3501L11.425 3.7751L3.17498 12.0001L11.425 20.2251L9.99998 21.6501Z"
+                        fill="#a5a9ad"
+                      />
+                    </g>
+                  </svg>
+                </div>
+              </a>
+              <ul class="sub-menu">
+                <li class="sub-menu-items">
+                  <a href="./add-theme.html">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask0_1092_101"
+                        style="mask-type: alpha"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="24"
+                        height="24"
+                      >
+                        <rect width="24" height="24" fill="#a5a9ad" />
+                      </mask>
+                      <g mask="url(#mask0_1092_101)">
+                        <path
+                          d="M12 19.625L10.925 18.55L16.75 12.75H4.375V11.25H16.75L10.925 5.45L12 4.375L19.625 12L12 19.625Z"
+                          fill="#a5a9ad"
+                        />
+                      </g>
+                    </svg>
+                    Add Theme
+                  </a>
+                </li>
+                <li class="sub-menu-items">
+                  <a href="./add-module.html">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <mask
+                        id="mask0_1092_101"
+                        style="mask-type: alpha"
+                        maskUnits="userSpaceOnUse"
+                        x="0"
+                        y="0"
+                        width="24"
+                        height="24"
+                      >
+                        <rect width="24" height="24" fill="#a5a9ad" />
+                      </mask>
+                      <g mask="url(#mask0_1092_101)">
+                        <path
+                          d="M12 19.625L10.925 18.55L16.75 12.75H4.375V11.25H16.75L10.925 5.45L12 4.375L19.625 12L12 19.625Z"
+                          fill="#a5a9ad"
+                        />
+                      </g>
+                    </svg>
+                    Add Module
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="sidebar-list">
+              <a href="./update.html" class="admin-item">
+                <div class="admin-text">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0_1156_49" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                    <rect width="24" height="24" fill="#D9D9D9"/>
+                    </mask>
+                    <g mask="url(#mask0_1156_49)">
+                    <path d="M12 17C11.7167 17 11.4793 16.904 11.288 16.712C11.096 16.5207 11 16.2833 11 16C11 15.7167 11.096 15.479 11.288 15.287C11.4793 15.0957 11.7167 15 12 15C12.2833 15 12.521 15.0957 12.713 15.287C12.9043 15.479 13 15.7167 13 16C13 16.2833 12.9043 16.5207 12.713 16.712C12.521 16.904 12.2833 17 12 17ZM11 13V7H13V13H11ZM7 23C6.45 23 5.97933 22.8043 5.588 22.413C5.196 22.021 5 21.55 5 21V3C5 2.45 5.196 1.979 5.588 1.587C5.97933 1.19567 6.45 1 7 1H17C17.55 1 18.021 1.19567 18.413 1.587C18.8043 1.979 19 2.45 19 3V21C19 21.55 18.8043 22.021 18.413 22.413C18.021 22.8043 17.55 23 17 23H7ZM7 20V21H17V20H7ZM7 18H17V6H7V18ZM7 4H17V3H7V4Z" fill="#A5A9AD"/>
+                    </g>
+                    </svg>
+                  <p>Update</p>
+                </div>
+
+      
+              </a>
+   
+            </div>
+            <div class="sidebar-list">
+              <a href="" class="admin-item">
+                <div class="admin-text">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0_1156_55" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                    <rect width="24" height="24" fill="#D9D9D9"/>
+                    </mask>
+                    <g mask="url(#mask0_1156_55)">
+                    <path d="M11.95 18C12.3 18 12.596 17.879 12.838 17.637C13.0793 17.3957 13.2 17.1 13.2 16.75C13.2 16.4 13.0793 16.1043 12.838 15.863C12.596 15.621 12.3 15.5 11.95 15.5C11.6 15.5 11.304 15.621 11.062 15.863C10.8207 16.1043 10.7 16.4 10.7 16.75C10.7 17.1 10.8207 17.3957 11.062 17.637C11.304 17.879 11.6 18 11.95 18ZM11.05 14.15H12.9C12.9 13.6 12.9627 13.1667 13.088 12.85C13.2127 12.5333 13.5667 12.1 14.15 11.55C14.5833 11.1167 14.925 10.704 15.175 10.312C15.425 9.92067 15.55 9.45 15.55 8.9C15.55 7.96667 15.2083 7.25 14.525 6.75C13.8417 6.25 13.0333 6 12.1 6C11.15 6 10.3793 6.25 9.788 6.75C9.196 7.25 8.78333 7.85 8.55 8.55L10.2 9.2C10.2833 8.9 10.471 8.575 10.763 8.225C11.0543 7.875 11.5 7.7 12.1 7.7C12.6333 7.7 13.0333 7.84567 13.3 8.137C13.5667 8.429 13.7 8.75 13.7 9.1C13.7 9.43333 13.6 9.74567 13.4 10.037C13.2 10.329 12.95 10.6 12.65 10.85C11.9167 11.5 11.4667 11.9917 11.3 12.325C11.1333 12.6583 11.05 13.2667 11.05 14.15ZM12 22C10.6167 22 9.31667 21.7373 8.1 21.212C6.88333 20.6873 5.825 19.975 4.925 19.075C4.025 18.175 3.31267 17.1167 2.788 15.9C2.26267 14.6833 2 13.3833 2 12C2 10.6167 2.26267 9.31667 2.788 8.1C3.31267 6.88333 4.025 5.825 4.925 4.925C5.825 4.025 6.88333 3.31233 8.1 2.787C9.31667 2.26233 10.6167 2 12 2C13.3833 2 14.6833 2.26233 15.9 2.787C17.1167 3.31233 18.175 4.025 19.075 4.925C19.975 5.825 20.6873 6.88333 21.212 8.1C21.7373 9.31667 22 10.6167 22 12C22 13.3833 21.7373 14.6833 21.212 15.9C20.6873 17.1167 19.975 18.175 19.075 19.075C18.175 19.975 17.1167 20.6873 15.9 21.212C14.6833 21.7373 13.3833 22 12 22ZM12 20C14.2333 20 16.125 19.225 17.675 17.675C19.225 16.125 20 14.2333 20 12C20 9.76667 19.225 7.875 17.675 6.325C16.125 4.775 14.2333 4 12 4C9.76667 4 7.875 4.775 6.325 6.325C4.775 7.875 4 9.76667 4 12C4 14.2333 4.775 16.125 6.325 17.675C7.875 19.225 9.76667 20 12 20Z" fill="#A5A9AD"/>
+                    </g>
+                    </svg>
+                  <p>Support</p>
+                </div>
+
+      
+              </a>
+   
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="main-wrapper">
+        <div class="navber">
+          <div class="navber-warrper">
+            <div class="meno-logo">
+              <img src="./images/menu.svg" alt="" />
+            </div>
+            <div class="navber-timer-wrapper">
+              <div class="nav-admin">
+                <img src="./images/admin.svg" alt="" />
+              </div>
+              <div class="admin-timer">
+                <span>1</span>
+                <span>9</span>
+                <span>:</span>
+                <span>2</span>
+                <span>1</span>
+                <span>:</span>
+                <span>4</span>
+                <span>4</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-con-wrapper">
+          <div class="admin-users-wrapper">
+            <div class="admin-user-header">
+              <div class="admin-user-header-left">
+                <div class="accout-img">
+                  <img src="./images/pagelines.png" alt="" />
+                </div>
+                <div class="account-content">
+                  <p>Content Manager</p>
+                  <span>Cms</span>
+                </div>
+              </div>
+              <div class="admin-user-header-right">
+                <p>content Manager - <span>Cms</span></p>
+              </div>
+            </div>
+            <div class="admin-user-list-wrapper">
+              <div class="admin-user-list-title">
+                <p>Content Manager System</p>
+              </div>
+             
+              <div class="row">
+                <div class="col-md-12 mt-4">
+                    <div class="row">
+                    <div class="col-12 col-sm-3 col-md-12 col-lg-3">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link " id="">Home</a>
+                    <a class="nav-link" id="">About</a>
+                    <a class="nav-link" id="">Contact</a>
+                    <a class="nav-link" id="" >Terms</a>
+                    <a class="nav-link" id="">Privacy Policy</a>
+                    <a class="nav-link" id="" >FAQ</a>
+                    <a class="nav-link" id="">Social Link</a>
+                    </div>
+                    </div>
+                    <div class="col-12 col-sm-9 col-md-12 col-lg-9">
+                    <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-Home" role="tabpanel" aria-labelledby="v-pills-Home-tab"><div class="row">
+                    <div class="col-md-12 col-lg-12">
+                    <div class="card-header">
+                    <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                    <h6 class="fs-17 font-weight-600 mb-0">Home</h6>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="card-body">
+                    <div class="table-responsive">
+                    <table id="example" class="table display table-bordered table-striped table-hover">
+                    <thead>
+                    <tr>
+                    <th>SL No.</th>
+                    <th>Headline</th>
+                    <th>Category</th>
+                    <th>Action</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                    <td>1</td>
+                    <td>Big market for</td>
+                    <td>Home</td>
+                    <td>
+                    <button type="button" class="btn btn-success mb-2 mr-1 edit-home" id="edit-home-page" data-article="1" data-toggle="modal" data-target=".bd-example-modal-xl">  <svg
+                        width="18"
+                        height="18"
+                        viewBox="0 0 15 15"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <mask
+                          id="mask0_331_43"
+                          style="mask-type: alpha"
+                          maskUnits="userSpaceOnUse"
+                          x="0"
+                          y="0"
+                          width="15"
+                          height="15"
+                        >
+                          <rect
+                            x="0.162109"
+                            y="0.89209"
+                            width="14"
+                            height="14"
+                            fill="#D9D9D9"
+                          />
+                        </mask>
+                        <g mask="url(#mask0_331_43)">
+                          <path
+                            d="M3.07878 14.7171C2.75794 14.7171 2.48319 14.6027 2.25453 14.3741C2.02625 14.1458 1.91211 13.8712 1.91211 13.5504V5.38372C1.91211 5.06289 2.02625 4.78814 2.25453 4.55947C2.48319 4.3312 2.75794 4.21706 3.07878 4.21706H8.28503L7.11836 5.38372H3.07878V13.5504H11.2454V9.49622L12.4121 8.32956V13.5504C12.4121 13.8712 12.298 14.1458 12.0697 14.3741C11.841 14.6027 11.5663 14.7171 11.2454 14.7171H3.07878ZM9.59753 4.55247L10.4288 5.36914L6.57878 9.21914V10.0504H7.39544L11.26 6.18581L12.0913 7.00247L7.89128 11.2171H5.41211V8.73789L9.59753 4.55247ZM12.0913 7.00247L9.59753 4.55247L11.0559 3.09414C11.2892 2.86081 11.5688 2.74414 11.8947 2.74414C12.2202 2.74414 12.4947 2.86081 12.7184 3.09414L13.535 3.92539C13.7586 4.149 13.8704 4.42122 13.8704 4.74206C13.8704 5.06289 13.7586 5.33511 13.535 5.55872L12.0913 7.00247Z"
+                            fill="white"
+                          />
+                        </g>
+                      </svg></button>
+                    </td>
+                    </tr>
+                    </tbody>
+                    </table>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="footer">
+          <div class="footer-content">
+            <p>2022 © Copyright Bdtask Ltd.</p>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <script src="admin-category.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

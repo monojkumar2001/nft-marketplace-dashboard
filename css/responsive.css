@@ -1,0 +1,63 @@
+@media only screen and (max-width: 992px){
+    .sidebar{
+        display: none;
+    }
+    .main-con-wrapper {
+        padding: 0 10px;
+    }
+    .dataTables_info {
+        margin-top: 20px;
+    }
+    .offset-md-4 {
+        margin-left:0% !important;
+    }
+}
+@media only screen and (max-width: 576px){
+    .col-form-label {
+        text-align: left;
+    }
+    .admin-user-header-left {
+        gap: 10px;
+    }
+    .admin-user-header {
+        gap: 10px;
+    }
+    .account-content p {
+        font-size: 20px;
+    }
+   .search-sumit-btns {
+        margin-top: 20px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .alert {
+        padding: 10px 10px !important;       
+    }
+    .app-setting-wrapper .row {
+            --bs-gutter-x: 0 !important;
+           ;
+        
+    }
+    .account-content {
+        white-space: nowrap;
+    }
+    .email-template-wrapper .dataTables_wrapper {
+        flex-direction: column;
+    }
+    .btn-group, .btn-group-vertical {
+        width: 100%;
+    }
+    .email-template-wrapper .search-sumit-btns {
+        width: 100%;
+    }
+    .admin-user-header {
+        flex-direction: column;
+    }
+    .admin-user-header-left {
+        width: 100%;
+    }
+    .admin-user-header-right {
+        width: 100%;
+    }
+
+}
