@@ -1,8 +1,10 @@
 .sidebar{
     height: 100%;
-    width: 300px;
+    width: 18%;
     background-color: #1c1f22;
     padding: 20px;
+    position: fixed;
+    overflow-y: auto;
 }
 .sidebar-wrapper{
     display: flex;
@@ -87,6 +89,7 @@ font-weight: 500;
 }
 /* ============== Navber start ===================== */
 .navber{
+    position: fixed;
     background: #fff;
     border-radius: 0;
     height: 65px;
@@ -96,6 +99,7 @@ font-weight: 500;
     -webkit-transition: all .3s;
     transition: all .3s;
     box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+    width: 82%;
 }
 .meno-logo img{
     width: 100%;
